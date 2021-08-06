@@ -490,7 +490,7 @@
     "value": {
       "fontFamily": "$fontFamilies.font-rambla",
       "fontWeight": "$fontWeights.font-weight-bold",
-      "lineHeight": "$lineHeights.7",
+      "lineHeight": "$fontSizes.h1-desktop * 1.5",
       "fontSize": "$fontSizes.6",
       "letterSpacing": "$letterSpacing.0",
       "paragraphSpacing": "$paragraphSpacing.0"
