@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Rambla;
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/Rambla-Regular.eot");
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/Rambla-Regular.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/Rambla-Regular.svg#RamblaRegular")
+      format("svg"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/Rambla-Regular.woff")
+      format("woff"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/Rambla-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: icons;
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/icons.eot");
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/icons.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/icons.svg#icons")
+      format("svg"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/icons.woff")
+      format("woff"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/icons.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: icons-news;
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/news/icons.eot");
+  src: url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/news/icons.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/news/icons.svg#icons")
+      format("svg"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/news/icons.woff")
+      format("woff"),
+    url("https://www.haarlem.nl/typo3conf/ext/alternet_sitepackage_haarlem/Resources/Public/Fonts/news/icons.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

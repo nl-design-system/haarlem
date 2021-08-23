@@ -1,4 +1,5 @@
 import '@gemeente-haarlem/design-tokens/dist/index.css';
+import '@gemeente-haarlem/design-tokens/src/custom.scss';
 
 import { defineCustomElements } from '@gemeente-haarlem/web-components-stencil';
 
