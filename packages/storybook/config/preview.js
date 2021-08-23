@@ -1,6 +1,6 @@
-import '@example/design-tokens/dist/index.css';
+import '@gemeente-haarlem/design-tokens/dist/index.css';
 
-import { defineCustomElements } from '@example/web-components-stencil';
+import { defineCustomElements } from '@gemeente-haarlem/web-components-stencil';
 
 defineCustomElements();
 
