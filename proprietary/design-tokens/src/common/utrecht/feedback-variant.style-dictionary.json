@@ -1,0 +1,30 @@
+{
+  "utrecht": {
+    "feedback": {
+      "danger": {
+        "fill": {
+          "background-color": { "value": "{haarlem.color.alert-error.100.value}" },
+          "color": { "value": "{haarlem.color.alert-error.700.value}" }
+        }
+      },
+      "warning": {
+        "fill": {
+          "background-color": { "value": "{haarlem.color.alert-warning.100.value}" },
+          "color": { "value": "{haarlem.color.alert-warning.300.value}" }
+        }
+      },
+      "safe": {
+        "fill": {
+          "background-color": { "value": "{haarlem.color.alert-success.100.value}" },
+          "color": { "value": "{haarlem.color.alert-success.600.value}" }
+        }
+      },
+      "neutral": {
+        "fill": {
+          "background-color": { "value": "{haarlem.color.alert-info.100.value}" },
+          "color": { "value": "{haarlem.color.alert-error.700.value}" }
+        }
+      }
+    }
+  }
+}

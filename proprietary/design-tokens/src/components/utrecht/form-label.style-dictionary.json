@@ -1,0 +1,17 @@
+{
+  "utrecht": {
+    "form-label": {
+      "color": {},
+      "font-weight": {},
+      "font-size": {},
+      "checkbox": {
+        "color": {},
+        "font-weight": {}
+      },
+      "radio": {
+        "color": {},
+        "font-weight": {}
+      }
+    }
+  }
+}

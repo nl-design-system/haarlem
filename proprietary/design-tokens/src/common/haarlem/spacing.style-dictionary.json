@@ -1,0 +1,170 @@
+{
+  "haarlem": {
+    "spacing": {
+      "space-1": {
+        "value": "1px",
+        "type": "spacing"
+      },
+      "space-2": {
+        "value": "2px",
+        "type": "spacing"
+      },
+      "space-4": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "space-8": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "space-12": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "space-16": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "space-24": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "space-32": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "space-40": {
+        "value": "40px",
+        "type": "spacing"
+      },
+      "space-48": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "space-56": {
+        "value": "56px",
+        "type": "spacing"
+      },
+      "space-64": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "space-72": {
+        "value": "72px",
+        "type": "spacing"
+      },
+      "space-80": {
+        "value": "80px",
+        "type": "spacing"
+      },
+      "space-96": {
+        "value": "96px",
+        "type": "spacing"
+      }
+    },
+    "inline-spacing": {
+      "space-inline-4xs": {
+        "value": "{haarlem.spacing.space-1.value}",
+        "type": "spacing"
+      },
+      "space-inline-3xs": {
+        "value": "{haarlem.spacing.space-2.value}",
+        "type": "spacing"
+      },
+      "space-inline-2xs": {
+        "value": "{haarlem.spacing.space-4.value}",
+        "type": "spacing"
+      },
+      "space-inline-xs": {
+        "value": "{haarlem.spacing.space-8.value}",
+        "type": "spacing"
+      },
+      "space-inline-sm": {
+        "value": "{haarlem.spacing.space-12.value}",
+        "type": "spacing"
+      },
+      "space-inline-md": {
+        "value": "{haarlem.spacing.space-16.value}",
+        "type": "spacing"
+      },
+      "space-inline-lg": {
+        "value": "{haarlem.spacing.space-24.value}",
+        "type": "spacing"
+      },
+      "space-inline-xl": {
+        "value": "{haarlem.spacing.space-32.value}",
+        "type": "spacing"
+      },
+      "space-inline-2xl": {
+        "value": "{haarlem.spacing.space-40.value}",
+        "type": "spacing"
+      },
+      "space-inline-3xl": {
+        "value": "{haarlem.spacing.space-48.value}",
+        "type": "spacing"
+      },
+      "space-inline-4xl": {
+        "value": "{haarlem.spacing.space-56.value}",
+        "type": "spacing"
+      },
+      "space-inline-5xl": {
+        "value": "{haarlem.spacing.space-64.value}",
+        "type": "spacing"
+      }
+    },
+    "block-spacing": {
+      "space-block-4xs": {
+        "value": "{haarlem.spacing.space-1.value}",
+        "type": "spacing"
+      },
+      "space-block-3xs": {
+        "value": "{haarlem.spacing.space-2.value}",
+        "type": "spacing"
+      },
+      "space-block-2xs": {
+        "value": "{haarlem.spacing.space-4.value}",
+        "type": "spacing"
+      },
+      "space-block-xs": {
+        "value": "{haarlem.spacing.space-8.value}",
+        "type": "spacing"
+      },
+      "space-block-sm": {
+        "value": "{haarlem.spacing.space-12.value}",
+        "type": "spacing"
+      },
+      "space-block-md": {
+        "value": "{haarlem.spacing.space-16.value}",
+        "type": "spacing"
+      },
+      "space-block-lg": {
+        "value": "{haarlem.spacing.space-24.value}",
+        "type": "spacing"
+      },
+      "space-block-xl": {
+        "value": "{haarlem.spacing.space-32.value}",
+        "type": "spacing"
+      },
+      "space-block-2xl": {
+        "value": "{haarlem.spacing.space-40.value}",
+        "type": "spacing"
+      },
+      "space-block-3xl": {
+        "value": "{haarlem.spacing.space-48.value}",
+        "type": "spacing"
+      },
+      "space-block-4xl": {
+        "value": "{haarlem.spacing.space-56.value}",
+        "type": "spacing"
+      },
+      "space-block-5xl": {
+        "value": "{haarlem.spacing.space-64.value}",
+        "type": "spacing"
+      },
+      "space-block-6xl": {
+        "value": "{haarlem.spacing.space-80.value}",
+        "type": "spacing"
+      }
+    }
+  }
+}
