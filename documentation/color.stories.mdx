@@ -1,0 +1,34 @@
+import { Description, Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+import tokens from "@gemeente-haarlem/design-tokens/src/brand/haarlem/color.style-dictionary.json";
+
+# Color
+
+<Meta title="Haarlem/Color" />
+
+## Brand
+
+<ColorPalette>
+  <ColorItem title="Red" colors={Object.values(tokens["haarlem"]["color"]["red"]).map(({ value }) => value)} />
+  <ColorItem title="Blue" colors={Object.values(tokens["haarlem"]["color"]["blue"]).map(({ value }) => value)} />
+  <ColorItem title="Grey" colors={Object.values(tokens["haarlem"]["color"]["grey"]).map(({ value }) => value)} />
+</ColorPalette>
+
+## Common
+
+### Feedback
+
+<ColorPalette>
+  <ColorItem
+    title="Error"
+    colors={Object.values(tokens["haarlem"]["color"]["alert-error"]).map(({ value }) => value)}
+  />
+  <ColorItem
+    title="Warning"
+    colors={Object.values(tokens["haarlem"]["color"]["alert-warning"]).map(({ value }) => value)}
+  />
+  <ColorItem
+    title="Success"
+    colors={Object.values(tokens["haarlem"]["color"]["alert-success"]).map(({ value }) => value)}
+  />
+  <ColorItem title="Info" colors={Object.values(tokens["haarlem"]["color"]["alert-info"]).map(({ value }) => value)} />
+</ColorPalette>
