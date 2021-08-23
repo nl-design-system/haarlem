@@ -1,5 +1,6 @@
 import '@gemeente-haarlem/design-tokens/dist/index.css';
 import '@gemeente-haarlem/design-tokens/src/custom.scss';
+import '@fontsource/roboto';
 
 import { defineCustomElements as defineUtrechtComponents } from '@utrecht/web-component-library-stencil';
 import { defineCustomElements } from '@gemeente-haarlem/web-components-stencil';
