@@ -57,7 +57,7 @@
     "bootstrap": "lerna bootstrap",
     "prebuild": "npm run clean",
     "build": "npm-run-all --sequential build-workspaces build:**",
-    "build:storybook": "build-storybook --config-dir packages/storybook/config/ --output-dir packages/storybook/dist/",
+    "build:storybook": "build-storybook --config-dir packages/storybook/config/ --output-dir packages/storybook/dist/ --static-dir proprietary/assets/",
     "build-workspaces": "lerna run build",
     "clean": "rimraf dist/ && lerna run clean",
     "deploy": "npm-run-all deploy:**",
@@ -81,7 +81,7 @@
     "test": "npm run test-workspaces",
     "test-workspaces": "lerna run --no-bail test",
     "prewatch:storybook": "lerna run build:stencil && lerna run build:style-dictionary",
-    "watch:storybook": "start-storybook --config-dir packages/storybook/config/ --port 6006",
+    "watch:storybook": "start-storybook --config-dir packages/storybook/config/ --static-dir proprietary/assets/ --port 6006",
     "watch:style-dictionary": "lerna run watch:style-dictionary"
   },
   "dependencies": {
