@@ -1,0 +1,11 @@
+{
+  "utrecht": {
+    "document": {
+      "background-color": {},
+      "color": {},
+      "font-family": { "value": "{haarlem.fontFamilies.font-arial.value}" },
+      "font-size": {},
+      "line-height": {}
+    }
+  }
+}

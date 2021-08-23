@@ -2,32 +2,46 @@
   "haarlem": {
     "fontSizes": {
       "font-size-xxs": {
-        "value": 14,
+        "value": "14px",
         "type": "fontSizes"
       },
       "font-size-xs": {
-        "value": 16,
+        "value": "16px",
         "type": "fontSizes"
       },
       "font-size-s": {
-        "value": 20,
+        "value": "20px",
         "type": "fontSizes"
       },
       "font-size-m": {
-        "value": 24,
+        "value": "24px",
         "type": "fontSizes"
       },
       "font-size-l": {
-        "value": 34,
+        "value": "34px",
         "type": "fontSizes"
       },
       "font-size-xl": {
-        "value": 48,
+        "value": "48px",
         "type": "fontSizes"
       },
       "font-size-xxl": {
-        "value": 64,
+        "value": "64px",
         "type": "fontSizes"
+      }
+    },
+    "fontWeights": {
+      "font-weight-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "font-weight-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "font-weight-italic": {
+        "value": "Italic",
+        "type": "fontWeights"
       }
     },
     "lineHeights": {

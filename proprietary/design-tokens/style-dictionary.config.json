@@ -1,5 +1,5 @@
 {
-  "source": ["src/**/*.style-dictionary.json"],
+  "source": ["src/**/style-dictionary.json", "src/**/*.style-dictionary.json"],
   "platforms": {
     "js": {
       "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],

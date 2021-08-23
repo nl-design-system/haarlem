@@ -1,0 +1,9 @@
+{
+  "utrecht": {
+    "heading": {
+      "color": { "value": "{haarlem.color.grey.800.value}" },
+      "font-family": { "value": "{haarlem.fontFamilies.font-rambla.value}" },
+      "font-weight": { "value": "{haarlem.fontWeights.font-weight-bold.value}" }
+    }
+  }
+}
