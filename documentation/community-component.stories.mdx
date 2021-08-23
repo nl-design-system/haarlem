@@ -1,0 +1,30 @@
+import { Meta, Description } from "@storybook/addon-docs";
+import markdown from "./community-component.md";
+
+export const Template = () => `
+<utrecht-document class="haarlem-theme">
+  <utrecht-heading-1>Heading 1: The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-1>
+  <utrecht-paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</utrecht-paragraph>
+  <utrecht-heading-2>Heading 2: The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-2>
+  <utrecht-paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</utrecht-paragraph>
+  <utrecht-heading-3>Heading 3: The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-3>
+  <utrecht-paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</utrecht-paragraph>
+  <form>
+    <utrecht-heading-3>Example Form</utrecht-heading-3>
+    <utrecht-form-field-textbox autocomplete="username">Username</utrecht-form-field-textbox>
+    <utrecht-form-field-textbox type="password" autocomplete="off">Password</utrecht-form-field-textbox>
+    <utrecht-form-field-textarea type="password">Message</utrecht-form-field-textarea>
+    <utrecht-form-field-checkbox name="crossroads-agreement">I agree with the terms and condititions (that I didn't actually read)</utrecht-form-field-checkbox>
+    <p>
+      <utrecht-button type="submit">Submit</utrecht-button>
+    </p>
+  </form>
+</utrecht-document>`;
+
+<Meta title="NL Design System/Components" />
+
+<Description>{markdown}</Description>
+
+<Canvas>
+  <Story name="Components">{Template.bind({})}</Story>
+</Canvas>
