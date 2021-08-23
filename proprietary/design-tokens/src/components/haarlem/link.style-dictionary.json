@@ -1,0 +1,7 @@
+{
+  "haarlem": {
+    "link": {
+      "color": { "value": "{haarlem.color.blue.800.value}" }
+    }
+  }
+}
