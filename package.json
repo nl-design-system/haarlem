@@ -86,6 +86,6 @@
     "watch:style-dictionary": "lerna run watch:style-dictionary"
   },
   "dependencies": {
-    "http-server": "0.13.0"
+    "http-server": "13.0.1"
   }
 }
