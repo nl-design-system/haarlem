@@ -2,15 +2,15 @@
   "utrecht": {
     "form-label": {
       "color": {},
-      "font-weight": {},
-      "font-size": {},
+      "font-weight": { "value": "{haarlem.fontWeights.font-weight-bold.value}" },
+      "font-size": { "value": "{haarlem.fontSizes.font-size-xs.value}" },
       "checkbox": {
         "color": {},
-        "font-weight": {}
+        "font-weight": { "value": "{haarlem.fontWeights.font-weight-regular.value}" }
       },
       "radio": {
         "color": {},
-        "font-weight": {}
+        "font-weight": { "value": "{haarlem.fontWeights.font-weight-regular.value}" }
       }
     }
   }

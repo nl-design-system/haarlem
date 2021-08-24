@@ -1,1 +1,46 @@
 @import "./font";
+
+.haarlem-theme {
+  utrecht-heading-1 {
+    display: block;
+    margin-block-end: var(--utrecht-heading-1-margin-block-end);
+    margin-block-start: var(--utrecht-heading-1-margin-block-start);
+  }
+
+  utrecht-heading-2 {
+    display: block;
+    margin-block-end: var(--utrecht-heading-2-margin-block-end);
+    margin-block-start: var(--utrecht-heading-2-margin-block-start);
+  }
+
+  utrecht-heading-3 {
+    display: block;
+    margin-block-end: var(--utrecht-heading-3-margin-block-end);
+    margin-block-start: var(--utrecht-heading-3-margin-block-start);
+  }
+
+  utrecht-paragraph,
+  utrecht-form-field-textbox,
+  utrecht-form-field-texarea,
+  utrecht-form-field-checkbox {
+    display: block;
+    margin-block-end: var(--utrecht-paragraph-margin-block-end);
+    margin-block-start: var(--utrecht-paragraph-margin-block-start);
+  }
+}
+
+@media (max-width: 767px) {
+  .haarlem-theme {
+    --utrecht-heading-1-font-size: var(--utrecht-heading-1-mobile-font-size);
+    --utrecht-heading-2-font-size: var(--utrecht-heading-2-mobile-font-size);
+    --utrecht-heading-3-font-size: var(--utrecht-heading-3-mobile-font-size);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .haarlem-theme {
+    --utrecht-heading-1-font-size: var(--utrecht-heading-1-tablet-font-size);
+    --utrecht-heading-2-font-size: var(--utrecht-heading-2-tablet-font-size);
+    --utrecht-heading-3-font-size: var(--utrecht-heading-3-tablet-font-size);
+  }
+}
