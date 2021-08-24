@@ -1,7 +1,7 @@
 {
   "example": {
     "link": {
-      "color": { "value": "{example.color.blue.50.value}" }
+      "color": { "value": "{colors.brand-tokens.haarlem-blue.800.value}" }
     }
   }
 }
