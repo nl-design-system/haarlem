@@ -1,4 +1,5 @@
 import { Description, Meta, Typeset } from "@storybook/addon-docs";
+import tokens from "@gemeente-haarlem/design-tokens/src/brand/haarlem/typography.style-dictionary.json";
 
 # Typography
 
@@ -17,3 +18,202 @@ import { Description, Meta, Typeset } from "@storybook/addon-docs";
 ### Roboto
 
 <Typeset fontFamily="Roboto" fontSizes={["24px"]} sampleText="The Quick Brown Fox Jumps Over The Lazy Dog" />
+
+## Typography scale
+
+### Mobile
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[
+    tokens["haarlem"]["fontSizes"]["font-size-l"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-m"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-s"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xs"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xxs"].value,
+  ]}
+  sampleText="The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+### Tablet
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[
+    tokens["haarlem"]["fontSizes"]["font-size-xl"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-l"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-m"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-s"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xs"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xxs"].value,
+  ]}
+  sampleText="The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+### Desktop
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[
+    tokens["haarlem"]["fontSizes"]["font-size-xxl"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xl"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-l"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-m"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-s"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xs"].value,
+    tokens["haarlem"]["fontSizes"]["font-size-xxs"].value,
+  ]}
+  sampleText="The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+## Usage
+
+### Mobile
+
+`font-size-l`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-l"].value]}
+  sampleText="H1: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-m`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-m"].value]}
+  sampleText="H2: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-s`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-s"].value]}
+  sampleText="H3: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xs"].value]}
+  sampleText="Paragraph: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xxs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xxs"].value]}
+  sampleText="Date/Time: January 1st 2000"
+/>
+
+`font-size-m`, Roboto:
+
+<Typeset
+  fontFamily="Roboto"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-m"].value]}
+  sampleText="Accent font: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+### Tablet
+
+`font-size-xl`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xl"].value]}
+  sampleText="H1: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-l`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-l"].value]}
+  sampleText="H2: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-m`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-m"].value]}
+  sampleText="H3: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xs"].value]}
+  sampleText="Paragraph: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xxs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xxs"].value]}
+  sampleText="Date/Time: January 1st 2000"
+/>
+
+`font-size-m`, Roboto:
+
+<Typeset
+  fontFamily="Roboto"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-m"].value]}
+  sampleText="Accent font: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+### Desktop
+
+`font-size-xxl`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xxl"].value]}
+  sampleText="H1: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xl`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xl"].value]}
+  sampleText="H2: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-l`, Rambla:
+
+<Typeset
+  fontFamily="Rambla"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-l"].value]}
+  sampleText="H3: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xs"].value]}
+  sampleText="Paragraph: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+`font-size-xxs`, Arial:
+
+<Typeset
+  fontFamily="Arial"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-xxs"].value]}
+  sampleText="Date/Time: January 1st 2000"
+/>
+
+`font-size-m`, Roboto:
+
+<Typeset
+  fontFamily="Roboto"
+  fontSizes={[tokens["haarlem"]["fontSizes"]["font-size-m"].value]}
+  sampleText="Accent font: The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
