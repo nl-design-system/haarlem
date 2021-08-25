@@ -400,7 +400,23 @@
         "value": "$colors.brand-tokens.blue.color-blue-900",
         "type": "color"
       },
+      "button-primary-action-focus-background-color": {
+        "value": "$colors.brand-tokens.haarlem-blue.700",
+        "type": "color"
+      },
+      "button-primary-action-active-background-color": {
+        "value": "$colors.brand-tokens.blue.color-blue-900",
+        "type": "color"
+      },
       "button-secondary-action-hover-background-color": {
+        "value": "$colors.brand-tokens.haarlem-blue.900",
+        "type": "color"
+      },
+      "button-secondary-action-focus-background-color": {
+        "value": "$colors.brand-tokens.blue.color-blue-900",
+        "type": "color"
+      },
+      "button-secondary-action-active-background-color": {
         "value": "$colors.brand-tokens.blue.color-blue-900",
         "type": "color"
       },
