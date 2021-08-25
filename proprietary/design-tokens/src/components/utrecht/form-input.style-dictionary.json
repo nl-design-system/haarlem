@@ -1,0 +1,30 @@
+{
+  "utrecht": {
+    "form-input": {
+      "background-color": {},
+      "border-color": { "value": "{haarlem.color.grey.800.value}" },
+      "border-radius": { "value": "3px" },
+      "border-width": { "value": "1px" },
+      "color": {},
+      "font-family": {},
+      "padding-block-end": { "value": "4px" },
+      "padding-block-start": { "value": "4px" },
+      "padding-inline-end": { "value": "8px" },
+      "padding-inline-start": { "value": "8px" },
+      "disabled": {
+        "border-color": { "value": "{haarlem.color.grey.600.value}" },
+        "color": {}
+      },
+      "focus": {
+        "border-color": { "value": "{haarlem.color.blue.800.value}" }
+      },
+      "invalid": {
+        "border-color": {},
+        "border-width": {}
+      },
+      "placeholder": {
+        "color": { "value": "{haarlem.color.grey.600.value}" }
+      }
+    }
+  }
+}

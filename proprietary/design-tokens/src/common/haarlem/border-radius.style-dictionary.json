@@ -1,0 +1,18 @@
+{
+  "haarlem": {
+    "border-radius": {
+      "round": {
+        "value": "3px",
+        "type": "borderRadius"
+      },
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "circle": {
+        "value": "100%",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

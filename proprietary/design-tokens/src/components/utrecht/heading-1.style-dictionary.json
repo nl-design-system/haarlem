@@ -1,0 +1,19 @@
+{
+  "utrecht": {
+    "heading-1": {
+      "color": {},
+      "font-family": {},
+      "font-size": { "value": "{haarlem.fontSizes.font-size-xxl.value}" },
+      "font-weight": { "value": "{haarlem.fontWeights.font-weight-bold.value}" },
+      "line-height": { "value": "{haarlem.lineHeights.line-height-tight.value}" },
+      "margin-block-end": { "value": "{haarlem.block-spacing.space-block-md.value}" },
+      "margin-block-start": { "value": "{haarlem.block-spacing.space-block-md.value}" },
+      "mobile": {
+        "font-size": { "value": "{haarlem.fontSizes.font-size-l.value}" }
+      },
+      "tablet": {
+        "font-size": { "value": "{haarlem.fontSizes.font-size-xl.value}" }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "utrecht": {
+    "button": {
+      "background-color": {
+        "value": "{haarlem.color.blue.800.value}"
+      },
+      "border-width": {
+        "value": "0"
+      },
+      "border-radius": {
+        "value": "{haarlem.border-radius.round.value}"
+      },
+      "color": {
+        "value": "{haarlem.color.white.value}"
+      },
+      "font-family": {},
+      "font-size": { "value": "{haarlem.fontSizes.font-size-xs.value}" },
+      "line-height": { "value": "{haarlem.lineHeights.line-height-loose.value}" },
+      "padding-inline-start": {
+        "value": "{haarlem.inline-spacing.space-inline-xl.value}",
+        "type": "spacing"
+      },
+      "padding-inline-end": {
+        "value": "{haarlem.inline-spacing.space-inline-xl.value}",
+        "type": "spacing"
+      },
+      "padding-block-start": {
+        "value": "{haarlem.block-spacing.space-block-sm.value}",
+        "type": "spacing"
+      },
+      "padding-block-end": {
+        "value": "{haarlem.block-spacing.space-block-sm.value}",
+        "type": "spacing"
+      },
+      "margin-inline-start": {},
+      "margin-inline-end": {},
+      "margin-block-start": {},
+      "margin-block-end": {},
+      "hover": {
+        "background-color": {
+          "value": "{haarlem.color.blue.900.value}",
+          "type": "color"
+        }
+      },
+      "primary-action": {
+        "background-color": {
+          "value": "{haarlem.color.blue.800.value}"
+        },
+        "color": {
+          "value": "{haarlem.color.white.value}"
+        },
+        "hover": {
+          "background-color": {
+            "value": "{haarlem.color.blue.900.value}",
+            "type": "color"
+          }
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "{haarlem.color.grey.600.value}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{haarlem.color.white.value}",
+          "type": "color"
+        }
+      },
+      "secondary-action": {
+        "background-color": {
+          "value": "{haarlem.color.red.800.value}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{haarlem.color.white.value}",
+          "type": "color"
+        },
+        "hover": {
+          "background-color": {
+            "value": "{haarlem.color.blue.900.value}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

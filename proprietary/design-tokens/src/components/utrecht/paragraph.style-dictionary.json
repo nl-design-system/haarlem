@@ -1,0 +1,18 @@
+{
+  "utrecht": {
+    "paragraph": {
+      "color": {},
+      "font-family": {},
+      "font-size": {},
+      "font-weight": {},
+      "line-height": { "value": "{haarlem.lineHeights.line-height-loose.value}" },
+      "margin-block-start": { "value": "{haarlem.block-spacing.space-block-md.value}" },
+      "margin-block-end": { "value": "{haarlem.block-spacing.space-block-md.value}" },
+      "lead": {
+        "font-size": {},
+        "font-weight": {},
+        "line-height": {}
+      }
+    }
+  }
+}

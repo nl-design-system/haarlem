@@ -1,12 +1,12 @@
-# Auteursrecht {auteur}
+# Auteursrecht Gemeente Haarlem
 
-Copyright (c) {jaar} {auteur}
+Copyright (c) 2021 Gemeente Haarlem
 
 ## Logo en huisstijl
 
-Op het huisstijl en logo zijn auteursrechten van toepassing. Het gebruik van logo en huisstijl is alleen toegestaan voor gebruik door {auteur}.
+Op het huisstijl en logo zijn auteursrechten van toepassing. Het gebruik van logo en huisstijl is alleen toegestaan voor gebruik door Gemeente Haarlem.
 
-Wanneer je een bewerking van de software wilt gebruiken voor andere doeleinden, mag je niet het logo van {auteur} gebruiken en je ontwerpt een eigen huisstijl.
+Wanneer je een bewerking van de software wilt gebruiken voor andere doeleinden, mag je niet het logo van Gemeente Haarlem gebruiken en je ontwerpt een eigen huisstijl.
 
 ## Lettertype
 
