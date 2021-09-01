@@ -716,8 +716,8 @@
       }
     },
     "common-tokens": {
-      "button-font-size": {
-        "value": "$fontSizes.brand-tokens.font-size-md",
+      "button-font-size":{
+        "value": "$fontSizes.brand-tokens.haarlem-font-size-xs",
         "type": "fontSizes"
       },
       "component-text": {
@@ -875,6 +875,17 @@
           "fontWeight": "$fontWeights.font-weight-regular",
           "lineHeight": "lineHeights.component-tokens.paragraph-line-height",
           "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
+      },
+      "form-control-title-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.paragraph-line-height",
+          "fontSize": "$fontSizes.brand-tokens.haarlem-font-size-xs",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0"
         },
