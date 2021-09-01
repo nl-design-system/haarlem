@@ -549,8 +549,8 @@
   "letterSpacing": {
     "brand-tokens": {
       "haarlem-letter-spacing-default": {
-      "value": "5%",
-      "type": "letterSpacing"
+        "value": "5%",
+        "type": "letterSpacing"
       }
     },
     "component-tokens": {
@@ -716,8 +716,8 @@
       }
     },
     "common-tokens": {
-      "button-font-size": {
-        "value": "$fontSizes.brand-tokens.font-size-md",
+      "button-font-size":{
+        "value": "$fontSizes.brand-tokens.haarlem-font-size-xs",
         "type": "fontSizes"
       },
       "component-text": {
@@ -790,152 +790,163 @@
       }
     },
     "form-text": {
-    "form-label": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-md",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-optional-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-sm",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-helper-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-sm",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-placeholder": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-md",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-input-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-md",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-disabled-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-md",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    },
-    "form-feedback-error-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "$lineHeights.component-tokens.form-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-sm",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    }
-  },
-  "component-text": {
-    "tab-text": {
-      "value": {
-        "fontFamily": "$fontFamilies.document-font-family",
-        "fontWeight": "$fontWeights.font-weight-regular",
-        "lineHeight": "lineHeights.component-tokens.paragraph-line-height",
-        "fontSize": "$fontSizes.brand-tokens.font-size-md",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0"
-      },
-      "type": "typography"
-    }
-  }
-  },
-    "fontWeights": {
-      "common-tokens": {
-        "font-weight-regular": {
-          "value": "Regular",
-          "type": "fontWeights"
+      "form-label": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
         },
-        "font-weight-bold": {
-          "value": "Bold",
-          "type": "fontWeights"
+        "type": "typography"
+      },
+      "form-optional-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-sm",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
         },
-        "font-weight-italic": {
-          "value": "Italic",
-          "type": "fontWeights"
-        }
+        "type": "typography"
+      },
+      "form-helper-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-sm",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
+      },
+      "form-placeholder": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
+      },
+      "form-input-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
+      },
+      "form-disabled-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
+      },
+      "form-feedback-error-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.form-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-sm",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
+        },
+        "type": "typography"
       }
     },
-    "borderRadius": {
-      "brand-tokens": {
-        "border-radius-round": {
-          "value": "3",
-          "type": "borderRadius"
+    "component-text": {
+      "tab-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "lineHeights.component-tokens.paragraph-line-height",
+          "fontSize": "$fontSizes.brand-tokens.font-size-md",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
         },
-        "border-radius-none": {
-          "value": "0",
-          "type": "borderRadius"
-        },
-        "border-radius-circle": {
-          "value": "100%",
-          "type": "borderRadius"
-        }
+        "type": "typography"
       },
-      "component-tokens": {
-        "form-input-border-radius": {
-          "value": "$borderRadius.brand-tokens.border-radius-round",
-          "type": "borderRadius"
+      "form-control-title-text": {
+        "value": {
+          "fontFamily": "$fontFamilies.document-font-family",
+          "fontWeight": "$fontWeights.font-weight-regular",
+          "lineHeight": "$lineHeights.component-tokens.paragraph-line-height",
+          "fontSize": "$fontSizes.brand-tokens.haarlem-font-size-xs",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0"
         },
-        "button-border-radius": {
-          "value": "$borderRadius.brand-tokens.border-radius-round",
-          "type": "borderRadius"
-        },
-        "tab-border-radius": {
-          "value": "$borderRadius.brand-tokens.border-radius-round",
-          "type": "borderRadius"
-        },
-        "tab-current-indicator-border-radius": {
-          "value": "$borderRadius.brand-tokens.border-radius-round",
-          "type": "borderRadius"
-        },
-        "badge-border-radius": {
-          "value": "$borderRadius.brand-tokens.border-radius-circle",
-          "type": "borderRadius"
-        }
+        "type": "typography"
+      }
+    }
+  },
+  "fontWeights": {
+    "common-tokens": {
+      "font-weight-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "font-weight-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "font-weight-italic": {
+        "value": "Italic",
+        "type": "fontWeights"
+      }
+    }
+  },
+  "borderRadius": {
+    "brand-tokens": {
+      "border-radius-round": {
+        "value": "3",
+        "type": "borderRadius"
+      },
+      "border-radius-none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "border-radius-circle": {
+        "value": "100%",
+        "type": "borderRadius"
       }
     },
+    "component-tokens": {
+      "form-input-border-radius": {
+        "value": "$borderRadius.brand-tokens.border-radius-round",
+        "type": "borderRadius"
+      },
+      "button-border-radius": {
+        "value": "$borderRadius.brand-tokens.border-radius-round",
+        "type": "borderRadius"
+      },
+      "tab-border-radius": {
+        "value": "$borderRadius.brand-tokens.border-radius-round",
+        "type": "borderRadius"
+      },
+      "tab-current-indicator-border-radius": {
+        "value": "$borderRadius.brand-tokens.border-radius-round",
+        "type": "borderRadius"
+      },
+      "badge-border-radius": {
+        "value": "$borderRadius.brand-tokens.border-radius-circle",
+        "type": "borderRadius"
+      }
+    }
+  },
   "sizing": {
     "brand-tokens": {
       "size-1": {

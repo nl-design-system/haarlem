@@ -13,9 +13,13 @@
       "color": {
         "value": "{haarlem.color.white.value}"
       },
-      "font-family": {},
-      "font-size": { "value": "{haarlem.fontSizes.font-size-xs.value}" },
-      "line-height": { "value": "{haarlem.lineHeights.line-height-loose.value}" },
+      "font-family": { },
+      "font-size": {
+        "value": "{haarlem.fontSizes.font-size-xs.value}"
+      },
+      "line-height": {
+        "value": "{haarlem.lineHeights.line-height-loose.value}"
+      },
       "padding-inline-start": {
         "value": "{haarlem.inline-spacing.space-inline-xl.value}",
         "type": "spacing"
