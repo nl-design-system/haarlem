@@ -1,11 +1,11 @@
 {
-  "haarlem": {
-    "color": {
-      "white": {
+  "colors": {
+    "brand-tokens": {
+      "haarlem-white": {
         "value": "hsla(0, 0%, 100%, 1)",
         "type": "color"
       },
-      "red": {
+      "haarlem-red": {
         "50": {
           "value": "hsla(348, 100%, 96%, 1)",
           "type": "color"
@@ -48,7 +48,7 @@
           "type": "color"
         }
       },
-      "blue": {
+      "haarlem-blue": {
         "50": {
           "value": "hsla(201, 70%, 94%, 1)",
           "type": "color",
@@ -101,7 +101,7 @@
           "description": "call to action"
         }
       },
-      "grey": {
+      "haarlem-grey": {
         "50": {
           "value": "hsla(0, 0%, 98%, 1)",
           "type": "color"
@@ -144,7 +144,7 @@
           "type": "color"
         }
       },
-      "alert-warning": {
+      "haarlem-alert-warning": {
         "50": {
           "value": "hsla(45, 93%, 94%, 1)",
           "type": "color"
@@ -187,7 +187,7 @@
           "type": "color"
         }
       },
-      "alert-success": {
+      "haarlem-alert-success": {
         "50": {
           "value": "hsla(125, 38%, 94%, 1)",
           "type": "color"
@@ -230,7 +230,7 @@
           "type": "color"
         }
       },
-      "alert-info": {
+      "haarlem-alert-info": {
         "50": {
           "value": "hsla(201, 100%, 94%, 1)",
           "type": "color"
@@ -273,7 +273,7 @@
           "type": "color"
         }
       },
-      "alert-error": {
+      "haarlem-alert-error": {
         "50": {
           "value": "hsla(350, 82%, 96%, 1)",
           "type": "color"

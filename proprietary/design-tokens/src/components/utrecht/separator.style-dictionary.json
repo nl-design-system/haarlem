@@ -1,0 +1,16 @@
+{
+  "utrecht": {
+    "separator": {
+      "color": {
+        "value": "{haarlem.color.grey.50.value}"
+      },
+      "width": {
+        "value": "1px"
+      },
+      "margin-block-end": {
+      },
+      "margin-block-start": {
+      }
+    }
+  }
+}

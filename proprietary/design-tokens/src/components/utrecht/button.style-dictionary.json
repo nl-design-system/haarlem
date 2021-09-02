@@ -2,7 +2,7 @@
   "utrecht": {
     "button": {
       "background-color": {
-        "value": "{haarlem.color.blue.800.value}"
+        "value": "{color.brand-tokens.haarlem-blue.800.value}"
       },
       "border-width": {
         "value": "0"
@@ -11,7 +11,7 @@
         "value": "{haarlem.border-radius.round.value}"
       },
       "color": {
-        "value": "{haarlem.color.white.value}"
+        "value": "{color.brand-tokens.haarlem-white}"
       },
       "font-family": { },
       "font-size": {
