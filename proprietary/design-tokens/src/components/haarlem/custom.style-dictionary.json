@@ -7,6 +7,12 @@
         },
         "color": {
           "value": "{haarlem.color.white.value}"
+        },
+        "hover": {
+          "background-color": {
+            "value": "{haarlem.color.blue.900.value}",
+            "type": "color"
+          }
         }
       }
     }
