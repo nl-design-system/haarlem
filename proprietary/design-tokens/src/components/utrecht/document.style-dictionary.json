@@ -2,7 +2,7 @@
   "utrecht": {
     "document": {
       "background-color": {},
-      "color": {},
+      "color": "{haarlem.color.grey.800.value}",
       "font-family": { "value": "{haarlem.fontFamilies.font-arial.value}" },
       "font-size": {},
       "line-height": {}
