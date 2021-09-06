@@ -485,11 +485,11 @@
         "type": "fontSizes"
       },
       "haarlem-font-size-s": {
-        "value": 20,
+        "value": 24,
         "type": "fontSizes"
       },
       "haarlem-font-size-m": {
-        "value": 24,
+        "value": 28,
         "type": "fontSizes"
       },
       "haarlem-font-size-l": {
@@ -497,11 +497,11 @@
         "type": "fontSizes"
       },
       "haarlem-font-size-xl": {
-        "value": 48,
+        "value": 40,
         "type": "fontSizes"
       },
       "haarlem-font-size-xxl": {
-        "value": 64,
+        "value": 48,
         "type": "fontSizes"
       }
     },
