@@ -477,7 +477,7 @@
   "fontSizes": {
     "brand-tokens": {
       "haarlem-font-size-xxs": {
-        "value": 14,
+        "value": 16,
         "type": "fontSizes"
       },
       "haarlem-font-size-xs": {
@@ -485,19 +485,19 @@
         "type": "fontSizes"
       },
       "haarlem-font-size-s": {
-        "value": 24,
+        "value": 16.8,
         "type": "fontSizes"
       },
       "haarlem-font-size-m": {
-        "value": 28,
+        "value": 19.2,
         "type": "fontSizes"
       },
       "haarlem-font-size-l": {
-        "value": 34,
+        "value": 27,
         "type": "fontSizes"
       },
       "haarlem-font-size-xl": {
-        "value": 40,
+        "value": 32,
         "type": "fontSizes"
       },
       "haarlem-font-size-xxl": {
