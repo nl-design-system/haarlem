@@ -3,7 +3,7 @@
     "button": {
       "cta": {
         "background-color": {
-          "value": "{haarlem.color.red.800.value}"
+          "value": "{haarlem.color.blue.800.value}"
         },
         "color": {
           "value": "{haarlem.color.white.value}"
