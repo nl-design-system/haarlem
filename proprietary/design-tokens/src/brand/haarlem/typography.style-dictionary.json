@@ -10,11 +10,11 @@
         "type": "fontSizes"
       },
       "font-size-s": {
-        "value": "20px",
+        "value": "24px",
         "type": "fontSizes"
       },
       "font-size-m": {
-        "value": "24px",
+        "value": "28px",
         "type": "fontSizes"
       },
       "font-size-l": {
@@ -22,11 +22,11 @@
         "type": "fontSizes"
       },
       "font-size-xl": {
-        "value": "48px",
+        "value": "40px",
         "type": "fontSizes"
       },
       "font-size-xxl": {
-        "value": "64px",
+        "value": "48px",
         "type": "fontSizes"
       }
     },
