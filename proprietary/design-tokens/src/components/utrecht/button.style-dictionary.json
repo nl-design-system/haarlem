@@ -48,14 +48,14 @@
       },
       "primary-action": {
         "background-color": {
-          "value": "{haarlem.color.blue.800.value}"
+          "value": "{haarlem.color.red.700.value}"
         },
         "color": {
           "value": "{haarlem.color.white.value}"
         },
         "hover": {
           "background-color": {
-            "value": "{haarlem.color.blue.900.value}",
+            "value": "{haarlem.color.red.800.value}",
             "type": "color"
           }
         }
