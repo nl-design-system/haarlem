@@ -29,11 +29,11 @@
         "type": "spacing"
       },
       "padding-block-start": {
-        "value": "{haarlem.block-spacing.space-block-sm.value}",
+        "value": "{haarlem.block-spacing.space-block-md.value}",
         "type": "spacing"
       },
       "padding-block-end": {
-        "value": "{haarlem.block-spacing.space-block-sm.value}",
+        "value": "{haarlem.block-spacing.space-block-md.value}",
         "type": "spacing"
       },
       "margin-inline-start": {},
