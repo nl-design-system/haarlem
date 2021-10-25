@@ -16,7 +16,7 @@
     "@babel/core": "7.15.0",
     "@etchteam/storybook-addon-status": "4.0.0",
     "@fontsource/roboto": "4.5.0",
-    "@percy/storybook": "3.3.1",
+    "@percy/storybook": "4.1.0",
     "@storybook/addon-a11y": "6.3.7",
     "@storybook/addon-docs": "6.3.7",
     "@storybook/addon-notes": "5.3.21",
