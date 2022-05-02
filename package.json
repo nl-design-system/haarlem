@@ -27,7 +27,7 @@
     "@types/node": "16.7.1",
     "@typescript-eslint/eslint-plugin": "4.29.3",
     "@typescript-eslint/parser": "4.29.3",
-    "@utrecht/web-component-library-stencil": "1.0.0-alpha.71",
+    "@utrecht/web-component-library-stencil": "1.0.0-alpha.198",
     "babel-loader": "8.2.2",
     "css-loader": "5.2.7",
     "dompurify": "2.3.1",
